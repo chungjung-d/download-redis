@@ -1,0 +1,23 @@
+---
+Grafana Labs
+---
+grafana -> 모니터링 툴(뭐든지) (시각화 툴) 
+loki -> 로그를 조회할수 있음 (로그 서버)
+promtail -> 로그 수집 (해당 경로 파일을 긁어서 로키로 보냄 / 서버 실행 로그)
+
+---
+
+---
+Redis Inc.
+---
+redis-stack -> 인메모리 캐시 DB / 스트리밍 , 캐시, 채팅 , 알람 ..... (실시간)
+
+---
+Docker Inc.
+---
+docker-compose -> 도커 컨테이너를 묶어서 관리할 수 있는 툴
+
+---
+Broadcom
+---
+spring-deps : 위 서버들(redis-stack) 연동용 스프링 라이브러리(관리하기) + 로그 서버(loki)와의 연동
