@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Jul 29 00:16:42 UTC 2024
+ktor-serialization-jackson-jvm-2.3.10.jar>central=
+ktor-serialization-jackson-jvm-2.3.10.pom>central=
+ktor-serialization-jackson-jvm-2.3.10-sources.jar>central=

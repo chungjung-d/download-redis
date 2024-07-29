@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.expediagroup</groupId>
+  <artifactId>graphql-kotlin-spring-server</artifactId>
+  <version>7.1.4</version>
+  <name>com.expediagroup:graphql-kotlin-spring-server</name>
+  <description>Spring Boot autoconfiguration library for creating reactive GraphQL server</description>
+  <url>https://github.com/ExpediaGroup/graphql-kotlin</url>
+  <organization>
+    <name>https://www.expediagroup.com/</name>
+  </organization>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Expedia Group Committers</name>
+      <email>oss@expediagroup.com</email>
+      <organization>Expedia Group</organization>
+      <organizationUrl>https://www.expediagroup.com/</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/ExpediaGroup/graphql-kotlin.git</connection>
+    <developerConnection>scm:git:git://github.com/ExpediaGroup/graphql-kotlin.git</developerConnection>
+    <url>https://github.com/ExpediaGroup/graphql-kotlin</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.expediagroup</groupId>
+      <artifactId>graphql-kotlin-server</artifactId>
+      <version>7.1.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.expediagroup</groupId>
+      <artifactId>graphql-kotlin-federation</artifactId>
+      <version>7.1.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-webflux</artifactId>
+      <version>3.1.10</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-jdk8</artifactId>
+      <version>1.7.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-reactor</artifactId>
+      <version>1.7.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.projectreactor.kotlin</groupId>
+      <artifactId>reactor-kotlin-extensions</artifactId>
+      <version>1.2.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.8.22</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-reflect</artifactId>
+      <version>1.8.22</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
