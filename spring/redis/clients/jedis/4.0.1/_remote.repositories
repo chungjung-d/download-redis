@@ -1,5 +1,0 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Jul 29 00:02:05 UTC 2024
-jedis-4.0.1-sources.jar>central=
-jedis-4.0.1.jar>central=
-jedis-4.0.1.pom>central=
